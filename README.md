@@ -6,7 +6,7 @@ The server has a dependency on a postgres database which must be deployed separa
 1. Fork this repository
 2. Add a Dockerfile to create a docker image for the application (see build and run commands below)
 3. Configure github actions to build the docker image and push the image to the github docker registry
-4. Use a tool like Terraform or Pulumi to deploy the app to Kubernetes (you may want to use Minikube to test). This does not need to be deployed using github acitons - just incluse the Terraform or Pulumi project in a `deployment` subdirectory.
+4. Use a tool like Terraform or Pulumi to deploy the app to Kubernetes (you may want to use Minikube to test). This does not need to be deployed using github actions - just include the Terraform or Pulumi project in a `deployment` subdirectory.
 5. Update the deployment project to deploy 3 replicas/pods running the application
 6. Update the deployment project to deploy a postgres databse with a PersistentVolumeClaim
 
