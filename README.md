@@ -35,5 +35,5 @@ yarn start
 Once deployed, the following `curl` command should respond with a HTTP 200 and the current time in the body
 
 ```
-curl http://localhost:3000/time
+curl http://<hostname>:<port>/time
 ```
