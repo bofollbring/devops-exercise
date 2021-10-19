@@ -18,7 +18,7 @@ and we'll use that as a starting point to drive the discussion in a followup int
 This repository contains a node http server that returns the time. 
 The server has a dependency on a postgres database which must be deployed separately as a backing service.
 
-# Instructions.
+# Instructions
 
 1. Fork this repository
 2. Add a Dockerfile to create a docker image for the application (see build and run commands below)
