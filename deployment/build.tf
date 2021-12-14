@@ -36,6 +36,14 @@ esource "kubernetes_deployment" "time" {
               cpu    = "250m"
               memory = "50Mi"
             }
+            env {
+              name = "DB_URL"
+              value = "postgresql://dbuser:secretpassword@database.server.com:3211/postgres"
+            }
+            env {
+              name = "PORT"
+              value = "9999"
+            }
           }
 
           liveness_probe {
